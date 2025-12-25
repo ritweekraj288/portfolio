@@ -189,7 +189,7 @@ export default function Page() {
       href: "https://leetcode.com/ritweekraj288",
       label: "LeetCode",
     },
-    { icon: Mail, href: "mailto:ritweekraj288", label: "Email" },
+    { icon: Mail, href: "mailto:ritweekraj288@gmail.com", label: "Email" },
   ];
 
   const currentYear = new Date().getFullYear();
