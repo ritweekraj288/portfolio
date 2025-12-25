@@ -99,7 +99,7 @@ export default function Page() {
       description:
         "An AI-powered web application that detects whether an image is real or AI-generated using deep learning.",
       image:
-        "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
+        "https://res.cloudinary.com/dm7yjlyls/image/upload/v1766672149/AI_image_detector_fujnle.jpg",
       tags: [
         "React",
         "FastAPI",
@@ -116,7 +116,7 @@ export default function Page() {
       description:
         "Oceanic is an interactive platform to explore ocean life through games, immersive media, and data-driven visualizations across ocean layers.",
       image:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+        "https://res.cloudinary.com/dm7yjlyls/image/upload/v1766672162/Oceanic_cr02zz.jpg",
       tags: [
         "Next.js",
         "JavaScript",
