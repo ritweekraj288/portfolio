@@ -178,18 +178,18 @@ export default function Page() {
   ];
 
   const footerSocialLinks = [
-    { icon: Github, href: "https://github.com/yourusername", label: "GitHub" },
+    { icon: Github, href: "https://github.com/ritweekraj288", label: "GitHub" },
     {
       icon: Linkedin,
-      href: "https://linkedin.com/in/yourusername",
+      href: "https://linkedin.com/in/ritweek-raj-313614323",
       label: "LinkedIn",
     },
     {
       icon: Code2,
-      href: "https://leetcode.com/yourusername",
+      href: "https://leetcode.com/ritweekraj288",
       label: "LeetCode",
     },
-    { icon: Mail, href: "mailto:your.email@example.com", label: "Email" },
+    { icon: Mail, href: "mailto:ritweekraj288", label: "Email" },
   ];
 
   const currentYear = new Date().getFullYear();
