@@ -95,6 +95,21 @@ export default function Page() {
   const projects = [
     {
       id: "1",
+      title: "Mood Brewer",
+      description:
+        "An AI-powered recommendation system that suggests coffee and snacks based on a user’s mood, taste, and time of day.",
+      image:
+        "https://res.cloudinary.com/dm7yjlyls/image/upload/v1766672149/AI_image_detector_fujnle.jpg",
+      tags: [
+        "Nextjs",
+        "FastAPI",
+        "JSON Data Modeling",
+      ],
+      demoLink: "https://moodbrewer.vercel.app",
+      sourceLink: "https://github.com/ritweekraj288/MoodBrewer.git",
+    },
+    {
+      id: "2",
       title: "AI Image Detector",
       description:
         "An AI-powered web application that detects whether an image is real or AI-generated using deep learning.",
@@ -111,7 +126,7 @@ export default function Page() {
       sourceLink: "https://github.com/ritweekraj288/AI_image_detector",
     },
     {
-      id: "2",
+      id: "3",
       title: "Oceanic",
       description:
         "Oceanic is an interactive platform to explore ocean life through games, immersive media, and data-driven visualizations across ocean layers.",
