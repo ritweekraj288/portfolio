@@ -63,7 +63,7 @@ export default function Page() {
           email: formData.email,
           message: formData.message,
           title: formData.subject,
-        }
+        },
       );
 
       setIsSubmitting(false);
@@ -99,12 +99,8 @@ export default function Page() {
       description:
         "An AI-powered recommendation system that suggests coffee and snacks based on a user’s mood, taste, and time of day.",
       image:
-        "https://res.cloudinary.com/dm7yjlyls/image/upload/v1766672149/AI_image_detector_fujnle.jpg",
-      tags: [
-        "Nextjs",
-        "FastAPI",
-        "JSON Data Modeling",
-      ],
+        "https://res.cloudinary.com/dm7yjlyls/image/upload/v1769192404/Screenshot_2026-01-23_at_11.45.59_PM_b4hxp9.png",
+      tags: ["Nextjs", "FastAPI", "JSON Data Modeling"],
       demoLink: "https://moodbrewer.vercel.app",
       sourceLink: "https://github.com/ritweekraj288/MoodBrewer.git",
     },
@@ -114,7 +110,7 @@ export default function Page() {
       description:
         "An AI-powered web application that detects whether an image is real or AI-generated using deep learning.",
       image:
-        "https://res.cloudinary.com/dm7yjlyls/image/upload/v1766672149/AI_image_detector_fujnle.jpg",
+        "https://res.cloudinary.com/dm7yjlyls/image/upload/v1769194824/Screenshot_2026-01-24_at_12.29.57_AM_ep3voq.png",
       tags: [
         "React",
         "FastAPI",
