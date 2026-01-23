@@ -100,7 +100,17 @@ export default function Page() {
         "An AI-powered recommendation system that suggests coffee and snacks based on a user’s mood, taste, and time of day.",
       image:
         "https://res.cloudinary.com/dm7yjlyls/image/upload/v1769192404/Screenshot_2026-01-23_at_11.45.59_PM_b4hxp9.png",
-      tags: ["Nextjs", "FastAPI", "JSON Data Modeling"],
+      // tags: ["Nextjs", "FastAPI", "JSON Data Modeling"],
+      tags: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "FastAPI",
+        "Python",
+        "Framer Motion",
+        "Axios",
+      ],
       demoLink: "https://moodbrewer.vercel.app",
       sourceLink: "https://github.com/ritweekraj288/MoodBrewer.git",
     },
@@ -111,12 +121,23 @@ export default function Page() {
         "An AI-powered web application that detects whether an image is real or AI-generated using deep learning.",
       image:
         "https://res.cloudinary.com/dm7yjlyls/image/upload/v1769194824/Screenshot_2026-01-24_at_12.29.57_AM_ep3voq.png",
+      // tags: [
+      //   "React",
+      //   "FastAPI",
+      //   "Vision Transformer (ViT)",
+      //   "Computer Vision",
+      //   "Deep Learning",
+      // ],
       tags: [
         "React",
         "FastAPI",
+        "Python",
+        "PyTorch",
         "Vision Transformer (ViT)",
+        "Hugging Face Transformers",
         "Computer Vision",
         "Deep Learning",
+        "Docker",
       ],
       demoLink: "https://ai-image-detectorreactfrontend.vercel.app",
       sourceLink: "https://github.com/ritweekraj288/AI_image_detector",
@@ -130,57 +151,125 @@ export default function Page() {
         "https://res.cloudinary.com/dm7yjlyls/image/upload/v1766672162/Oceanic_cr02zz.jpg",
       tags: [
         "Next.js",
-        "JavaScript",
+        "TypeScript",
+        "Tailwind CSS",
+        "Interactive Web App",
         "HTML5 Canvas",
+        "WebGL",
         "Game Development",
-        "Interactive UI",
+        "Framer Motion",
+        "GSAP Animations",
+        "Leaflet Maps",
+        "MongoDB",
+        "Clerk Authentication",
+        "Docker",
+        "Immersive UI/UX",
       ],
       demoLink: "https://oceanic-project.vercel.app",
       sourceLink: "https://github.com/NishchayMittal/WW-25_Bit_Forge",
     },
   ];
 
+  // const skillCategories = [
+  //   {
+  //     title: "Frontend",
+  //     skills: [
+  //       "HTML5, CSS3",
+  //       "JavaScript (ES6+)",
+  //       "React.js",
+  //       "Next.js",
+  //       "TypeScript",
+  //       "Tailwind CSS",
+  //       "Responsive UI Development",
+  //     ],
+  //   },
+  //   {
+  //     title: "Backend",
+  //     skills: [
+  //       "Python",
+  //       "FastAPI",
+  //       "Node.js",
+  //       "Express",
+  //       "REST API Development",
+  //       "MongoDB",
+  //     ],
+  //   },
+  //   {
+  //     title: "Machine Learning",
+  //     skills: [
+  //       "PyTorch",
+  //       "Vision Transformer (ViT)–based Image Classification",
+  //       "Model Inference & Evaluation",
+  //     ],
+  //   },
+  //   {
+  //     title: "Tools & DevOps",
+  //     skills: [
+  //       "Git, GitHub",
+  //       "Kaggle, Jupyter Notebook",
+  //       "Basic Deployment (Render)",
+  //     ],
+  //   },
+  // ];
   const skillCategories = [
-    {
-      title: "Frontend",
-      skills: [
-        "HTML5, CSS3",
-        "JavaScript (ES6+)",
-        "React.js",
-        "Next.js",
-        "TypeScript",
-        "Tailwind CSS",
-        "Responsive UI Development",
-      ],
-    },
-    {
-      title: "Backend",
-      skills: [
-        "Python",
-        "FastAPI",
-        "Node.js",
-        "Express",
-        "REST API Development",
-        "MongoDB",
-      ],
-    },
-    {
-      title: "Machine Learning",
-      skills: [
-        "PyTorch",
-        "Vision Transformer (ViT)–based Image Classification",
-        "Model Inference & Evaluation",
-      ],
-    },
-    {
-      title: "Tools & DevOps",
-      skills: [
-        "Git, GitHub",
-        "Kaggle, Jupyter Notebook",
-        "Basic Deployment (Render)",
-      ],
-    },
-  ];
+  {
+    title: "Frontend",
+    skills: [
+      "HTML5, CSS3",
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "React.js",
+      "Next.js (App Router)",
+      "Tailwind CSS",
+      "Framer Motion",
+      "GSAP Animations",
+      "HTML5 Canvas",
+      "WebGL (OGL)",
+      "Responsive UI Development",
+      "Interactive & Immersive UI/UX",
+    ],
+  },
+  {
+    title: "Backend",
+    skills: [
+      "Python",
+      "FastAPI",
+      "Node.js",
+      "Express.js",
+      "REST API Development",
+      "Server Actions (Next.js)",
+      "MongoDB",
+      "Mongoose ORM",
+      "Authentication (Clerk)",
+    ],
+  },
+  {
+    title: "Machine Learning",
+    skills: [
+      "PyTorch",
+      "Vision Transformers (ViT)",
+      "AI Image Classification",
+      "Model Training & Inference",
+      "Model Evaluation & Metrics",
+      "Data Preprocessing",
+    ],
+  },
+  {
+    title: "Tools & DevOps",
+    skills: [
+      "Git, GitHub",
+      "Docker & Docker Compose",
+      "Vercel",
+      "Render",
+      "Netlify",
+      "Kaggle",
+      "Jupyter Notebook",
+      "ESLint",
+      "Basic CI/CD",
+    ],
+  },
+];
+
 
   const navItems = [
     { label: "Home", href: "#" },
